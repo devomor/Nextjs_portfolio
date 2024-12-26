@@ -49,7 +49,7 @@ const about = {
     },
     {
       fielName: "Email:",
-      FielValue: "omar@gmail.com",
+      FielValue: "mohammadomar01312@gmail.com",
     },
     {
       fielName: "Freelance:",

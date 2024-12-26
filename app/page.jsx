@@ -23,15 +23,22 @@ const Home = () => {
               in various programming language and technologies.
             </p>
             {/* button & social */}
+
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
-                variant="outline"
-                size="lg"
-                className="uppercase flex items-center gap-2"
+              <a
+                href="https://drive.google.com/file/d/15zi-hiDummaL_hYAVEyLch8Lx8ZJGDOB/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="uppercase flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyle="flex gap-6"
